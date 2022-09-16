@@ -1,0 +1,56 @@
+GIT & GITHUB
+
+É um software de versionamento de código. O design dele é voltado para outro tipo de programa. O GIT é um CLI. Não tem interface gráfica, mas sim por linha de comando.
+O GitHub é um repositório online. Host
+GUI (Grafic user interface) X CLI (Comand linner interface)
+Comandos básicos 
+Mudar de pastas
+Listar as pastas; dir (Windows), ls (linux) ls-a (lista arquivos ocultos)
+Criar pastas/arquivos mkdir workspace no windows/linux
+Deletar pastas e arquivos
+
+
+Passo a passo:
+Apertar botão do Windows e digitar CMD
+Comando dir lista as pastas 
+
+Windows : cd, dir, mkdir, del/rmdir    /// Unix: cd, Is, mkdir, rm-rf
+cd/ - navegar entre as pastas
+Voltar cd.. (para retroceder um nível de navegação)
+Windows (cls para limpar a tela) 
+Linux (clear), também pode-se usar o atalho ctrl L
+TAB tem função de autocompletar
+
+A função echo pega a string e “cospe” o output da string
+
+SHA (Secure Hash Algorithm) - conjunto de funções hash criptográficas projetadas pela NSA  Encriptação gera um conjunto de caracteres de 40 dígitos (único) (string)
+
+Blobs (tipo, tamanho da string, do arquivo) \
+Tree (armazenam blobs, estrutura de onde estão localizados os arquivos)
+Commit (objeto que junta tudo). Significância - ele aponta pra árvore e essa para os blobs (bolhas)
+Chaves SSH (forma de estabelecer conexão segura e encriptada entre duas máquinas)  e Tokens
+
+
+Git Init (inicializa um conceito do git chamada de repositório) Untracked. Cria-se um repositório
+
+Git add - arquivo vai para staged
+Markdown (extensão Md) - estrutura simples de se escrever html(markdownguide sintaxe básica.
+Tudo que está no repositório local tem que estar commitado, caso contrário não será possível enviá-los ao repositório remoto.
+Ciclo de vida dos arquivos no GIT Init
+
+Untracked são os arquivos que o Git não tem ciência
+Staged - Backstage (que dão apoio) e aqueles que estão se preparando para fazer parte de outro tipo de grupamento “entrar no palco”
+Git add - arquivo vai para staged
+Unmodified/Modiefied e Staged são “estágios” cíclicos Os arquivos ficam transitando.. O commit torna tudo unmodified e o ciclo reinicia, como se fosse uma foto do arquivo naquele momento.
+Adiciona os arquivos modificados para área de staged
+Git add nomeArquivo
+Git add *
+Git add.
+
+
+Repositório Remoto no qual se guarda o código e trabalha-se em equipe. “Loja de aplicações”. “Rede social”
+GitHub 
+O Git Bash é um terminal estendido para otimizar o uso do Git.
+
+
+Gitinore - ignora arquivos beyond;
